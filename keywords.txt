@@ -1,0 +1,6 @@
+RotaryButton	KEYWORD1
+
+readPosition	KEYWORD2
+getValue	KEYWORD2
+getLastValue	KEYWORD2
+hasChanged	KEYWORD2
