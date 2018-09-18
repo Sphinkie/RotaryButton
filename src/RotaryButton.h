@@ -14,7 +14,7 @@
 #ifndef ROTARYCLASS_H_INCLUDED
 #define ROTARYCLASS_H_INCLUDED
 
-
+#include <Arduino.h>
 
 class Rotary
 {
