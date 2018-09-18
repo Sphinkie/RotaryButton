@@ -1,13 +1,12 @@
 /* ***********************************************************
- *  Gestion de Bouton de type Commutateur Rotatif
+ *  Management of a Rotary Button (Commutateur Rotatif)
  *  
- *  On considère en dur qu'il y a 4 positions.
- *  Donc, on réserve 4 entrées Digitales pour ce bouton.
+ *  Four (4) digital inputs are reserved for this library.
  *  
- * mode INPUT:
+ * INPUT mode:
  *   Pushbutton attached to pin N from +5V
  *   10K resistor attached to pin N from Ground. 
- *   Cela permet que les entrées au repos (normaly open) soient à la masse.
+ *   So the idle inputs (normaly open) are linked to Ground.
  ************************************************************* */
 
 
