@@ -2,11 +2,10 @@
 
 -----
 ```c++
-Rotary::Rotary(int pin1, int pin2)
-Rotary::Rotary(int pin1, int pin2, int pin3, int pin4)
+Rotary::Rotary(int pin1, int pin2, int pin3=0, int pin4=0)
 ```
 
-Contructors for button with 2 or 4 positions.
+Constructor for button with  4 positions max.
 
 -----
 ```c++

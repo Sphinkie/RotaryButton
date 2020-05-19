@@ -1,25 +1,20 @@
 /* ***********************************************************
- *  Management of a Rotary Button (Commutateur Rotatif)
+ *  Gestion de Bouton de type Commutateur Rotatif
  *  
- *  Four (4) digital inputs are reserved for this library.
- *  
- * INPUT mode:
+ * mode INPUT:
  *   Pushbutton attached to pin N from +5V
  *   10K resistor attached to pin N from Ground. 
- *   So the idle inputs (normaly open) are linked to Ground.
+ *   Cela permet que les entrées au repos (normaly open) soient à la masse.
  ************************************************************* */
-
 
 #ifndef ROTARYCLASS_H_INCLUDED
 #define ROTARYCLASS_H_INCLUDED
 
-#include <Arduino.h>
 
 class Rotary
 {
     public:
-      Rotary(int pin1, int pin2, int pin3, int pin4);
-      Rotary(int pin1, int pin2);
+      Rotary(int pin1, int pin2, int pin3=0, int pin4=0);
       int    readPosition();
       int    getValue();
       int    getLastValue();
